@@ -1,0 +1,25 @@
+.contenedor{
+
+    display: flex;
+    justify-content: center;
+}
+
+.columna{
+
+    background-color:silver;
+    padding: 100px;
+    margin: 0 5px;
+ 
+
+}
+
+.columnas{
+
+    background-color:whitesmoke;
+    padding: 100px;
+    margin: 0 5px;
+ 
+
+}
+
+
