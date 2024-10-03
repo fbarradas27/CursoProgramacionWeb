@@ -1,0 +1,20 @@
+nav {
+
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > div {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#buscador {
+
+    border: 2px;
+    border-radius: 30px;
+
+}
