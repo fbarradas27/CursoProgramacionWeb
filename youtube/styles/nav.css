@@ -1,6 +1,6 @@
 nav {
 
-    padding: 12px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -9,12 +9,14 @@ nav > div {
 
     display: flex;
     justify-content: center;
-
+    max-width: none;
 }
 
 #buscador {
 
-    border: 2px;
-    border-radius: 30px;
-
+    border: 1px solid black;
+    
+    
 }
+
+
