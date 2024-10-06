@@ -1,12 +1,104 @@
 header {
 
     display: grid;
-    grid-template-columns: 50% 50% ;
-    
+    /*grid-template-columns: 30% 70% ;*/
+    grid-template-columns: 15% 85% ;
 }
 
 
+.left{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px;
+    grid-gap: 30px;
+}
+
+/*.right{
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 50px);
+    grid-gap: 30px;
+    padding-right: 38px;
+    
+
+} */
+
+.right{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30px);
+    grid-gap: 20px;
+    padding-right: 50px;
+    
+
+} 
+
+.right-videos{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 50px);
+    grid-gap: 30px;
+    padding-right: 38px;
+    
+    
+
+} 
 
 
 
+.contenedor{
 
+    margin: 20px;
+    padding-bottom: 15px;
+}
+
+
+#inicio {
+
+    width: 35px;
+    
+    
+
+}
+
+#suscripciones{
+
+    width: 35px;
+    
+}
+
+#historial{
+
+    width: 35px;
+
+}
+
+#lista {
+
+    width: 30px;
+}
+
+#reloj {
+
+    width: 30px;
+}
+
+#megusta {
+
+    width: 42px;
+}
+
+.right > input {
+
+    border: 2px solid silver;
+    border-radius: 15px;
+    height: 30px;
+    width: 180px;
+    
+    
+   
+}
