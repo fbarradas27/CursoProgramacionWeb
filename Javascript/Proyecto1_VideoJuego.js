@@ -85,7 +85,6 @@ class Personaje{
   saludar() {
     return `Hola, soy ${this.nombre}`;
   }
-
 }
 
 class Mago extends Personaje {
